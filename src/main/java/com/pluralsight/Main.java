@@ -25,7 +25,7 @@ public class Main {
                 sevenCounter++;
             }
 
-            System.out.println("Roll " + i + ":    " + roll1 + " - " + roll2 + "   Sum:  " + sum);
+            System.out.printf("Roll %3d:   %d - %d   Sum: %-3d\n", i, roll1, roll2, sum);
         }
 
         System.out.println("\nCounter for 2 sum: " + twoCounter);
